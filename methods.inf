@@ -1,0 +1,4 @@
+START
+kmeans
+Rscript kmeans_hartigan_wong.R [[number_of_centers]] [[number_of_iterations]] [[nstart]] [[outFileName]] [[number_of_executions]]
+END

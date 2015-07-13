@@ -1,0 +1,4 @@
+START
+gap
+Rscript gap_statistic.R [[clustering_file]] [[number_of_clusters]] [[b]] [[outFileName]]
+END
