@@ -8,6 +8,9 @@ argNstart <- args[4]
 outFile <- args[5]
 numTimes <- args[6]
 
+outFile <- paste(strsplit(outFile, "\\.")[0], strsplit(argData, "\\.")[0])
+outFile <- paste(outFile, ".dat")
+
 #Chosen final clusters
 centers_1 <- strtoi(argCenters) - 1
 final_clusters = vector(mode="list", length=centers_1)
